@@ -1,0 +1,31 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: BootProj07-InjectingValuesToAllTypesOfSpringBeanProperties
+emp:
+  info:
+    id: 1001
+    name: rajesh
+    nick-names:
+    - chinna
+    - kanna
+    - munna
+    teamMembers:
+    - ravi
+    team-members:
+    - srinu
+    - ravi
+    phone-numbers:
+    - 9999999999
+    - 8888888888
+    - 7777777777
+    id-details:
+      adharNo: 123784787478
+      panNo: AJXPR55353
+      voterId: 999667999977
+    comp-details:
+      title: HCL Technologies
+      location: hyd
+      size: 2000
